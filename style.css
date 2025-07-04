@@ -1,0 +1,43 @@
+:root{
+    --cor-fundo: #000000 ;
+    --cor-principal: #c4e21d ;
+    --cor-secundaria: #7dd30d; 
+    --cor-destaque: #252904;
+    --cor-texto: #020202;
+
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.caixa-principal{
+    background-color: var(--cor-principal);
+    width: 90%;
+    max-width: 1000px;
+    text-align: center;
+    padding: 70px;
+}
+
+h1{
+    color: var(--cor-destaque);
+}
+
+button {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-texto);
+    border: none;
+    border-radius: 40px;
+    padding: 40px;
+    transition: background-color 0.3s;
+}
+
+button:hover{
+    background-color: var(--cor-destaque);
+    color: var(--cor-principal);
+}
