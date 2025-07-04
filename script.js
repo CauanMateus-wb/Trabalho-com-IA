@@ -106,7 +106,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2049...";
+    caixaPerguntas.textContent = "Como você vê o futebol no futuro...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
